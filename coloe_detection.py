@@ -26,24 +26,3 @@ while st:
 video.release()
 cv2.destroyAllWindows() 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# mask_=Image.fromarray(mask)
-    # boundry_box=mask_.getbbox()
-    # if boundry_box:
-    #     x,y,w,h=boundry_box
-    #     frame=cv2.rectangle(frame,(x,y),(w,h),[0,255,0],4)   
-    # cv2.drawContours(frame,c,-1,[0,255,0],3)
